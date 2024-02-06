@@ -1,0 +1,21 @@
+error: something goes worng ValidationError: name: Path `name` is required., quantity: Path `quantity` is required., price: Path `price` is required. {"timestamp":"06-02-2024 18:39:15"}
+error: something goes worng ValidationError: name: Path `name` is required., quantity: Path `quantity` is required., price: Path `price` is required. {"timestamp":"06-02-2024 18:41:35"}
+error: something goes worng ReferenceError: newGrocery is not defined {"timestamp":"06-02-2024 18:43:48"}
+error: something goes worng TypeError: groceryModel.findByIdAndRemove is not a function {"timestamp":"06-02-2024 19:09:21"}
+error: something goes worng TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle {"timestamp":"06-02-2024 19:10:05"}
+error: something goes worng TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle {"timestamp":"06-02-2024 19:10:58"}
+error: something goes worng TypeError: groceryModel.findByIdAndRemove is not a function {"timestamp":"06-02-2024 19:11:26"}
+error: something goes worng TypeError: groceryModel.findByIdAndRemove is not a function {"timestamp":"06-02-2024 19:16:53"}
+error: something goes worng TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle {"timestamp":"06-02-2024 19:18:42"}
