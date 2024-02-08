@@ -1,5 +1,5 @@
 // Import errorLogger middleware for logging errors
-const { errorLogger } = require("../middleware/logger");
+const { errorLogger } = require("../utils/logger");
 
 // Import the grocery model for interacting with the database
 const groceryModel = require("../model/grocery.model");

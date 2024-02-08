@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const dotenv = require('dotenv')
 
 // Import custom middleware
-const {infoLogger,errorLogger} = require('./middleware/logger')
+const {infoLogger,errorLogger} = require('./utils/logger')
 
 // Load environment variables from .env file into process.env
 dotenv.config()

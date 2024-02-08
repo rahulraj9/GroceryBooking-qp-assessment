@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { infoLogger, errorLogger } = require('../middleware/logger');
+const { infoLogger, errorLogger } = require('../utils/logger');
 
 // Connect to the MongoDB database using the provided DBURL from environment variables
 mongoose.connect(process.env.DBURL)
